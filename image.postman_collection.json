@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "6109b129-edf8-499f-a9a2-dba0ac077bc2",
+		"name": "image",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40790272"
+	},
+	"item": [
+		{
+			"name": "post single imge",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "post imge",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "test2",
+							"type": "text"
+						},
+						{
+							"key": "qty",
+							"value": "8",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": [
+								"/C:/Users/DELL 5580/Pictures/Screenshots/Screenshot (23).png",
+								"/C:/Users/DELL 5580/Pictures/Screenshots/Screenshot (28).png"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/product/creates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product",
+						"creates"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
