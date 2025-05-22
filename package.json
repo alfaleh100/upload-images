@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "i18": "^0.0.6",
+    "i18next": "^25.2.0",
+    "i18next-fs-backend": "^2.6.0",
+    "i18next-http-middleware": "^3.7.4",
+    "mongoose": "^8.15.0",
+    "multer": "^2.0.0",
+    "sharp": "^0.34.2"
+  }
+}
